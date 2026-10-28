@@ -177,7 +177,7 @@ def Algorithm3(X,k_distance,A,h,group,d,neighbors,f_distance,metric='euclidean')
     mask = np.ones(len(A),dtype=bool)
     
     for v_a in range(0,h):
-        if A[v_a] 
+        
 
 
 
