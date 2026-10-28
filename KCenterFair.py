@@ -133,7 +133,7 @@ def Algorithm3(X,k_distance,A,h,group,d,neighbors,f_distance,metric='euclidean')
 
     def a_to_X_min_distance(X,A,a,k_distance,group,m):
         """
-        求中心点a到各个群体的最小矩阵，返回f_distance,vertex
+        求中心点a到各个群体的最小矩阵，返回f_distance,vertex（表示连接具体哪个点）
         a   为集合A的下标,表示A[a]里面的顶点
         m   群体个数
         """
